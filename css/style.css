@@ -480,6 +480,15 @@ a {
   background: var(--darkGrey);
   padding-left: 2.5rem;
 }
+/* 271.43 */
+.nav-links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--mainTransition);
+}
+.show-links {
+  height: 271.43px;
+}
 @media screen and (min-width: 992px) {
   .nav-toggle {
     display: none;
@@ -512,7 +521,7 @@ a {
   .navbar {
     padding: 1rem 2rem;
   }
-  .nav-center {
+  .navbar-center {
     width: 100%;
   }
   .nav-link {
