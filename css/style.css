@@ -507,6 +507,7 @@ a {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    width: 100%;
   }
   .nav-header {
     padding: 0;
@@ -541,7 +542,7 @@ a {
 /******* end of navbar *******/
 /* fixed navbar */
 .fixed {
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
