@@ -521,7 +521,7 @@ a {
   .navbar {
     padding: 1rem 2rem;
   }
-  .navbar-center {
+  .nav-center {
     width: 100%;
   }
   .nav-link {
@@ -539,3 +539,14 @@ a {
   }
 }
 /******* end of navbar *******/
+/* fixed navbar */
+.fixed {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--mainGrey);
+  transition: var(--mainTransition);
+  box-shadow: var(--lightShadow);
+  z-index: 1;
+}
